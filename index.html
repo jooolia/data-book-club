@@ -120,10 +120,18 @@
   </ul>
 
   <h2>Interested?</h2>
-  <p class="detail">
-    <a href="https://buttondown.com/data_book_club">Subscribe to the mailing list</a> —
-    we're building the founding group now.
-  </p>
+  <p>We're building the founding group now. Subscribe to hear when the first session is confirmed.</p>
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/data_book_club"
+    method="post"
+    style="display:flex; gap:0.5rem; flex-wrap:wrap; align-items:center; margin-top:0.5rem;"
+  >
+    <input type="email" name="email" placeholder="your@email.com" required
+      style="font-family:system-ui,sans-serif; font-size:0.9rem; padding:0.4rem 0.6rem; border:1px solid #ccc; background:#fff; color:#1a1a1a; flex:1; min-width:180px;" />
+    <input type="hidden" value="1" name="embed" />
+    <input type="submit" value="Subscribe"
+      style="font-family:system-ui,sans-serif; font-size:0.9rem; padding:0.4rem 0.9rem; background:#1a1a1a; color:#faf9f7; border:none; cursor:pointer;" />
+  </form>
 
   <footer>
     Morges, Vaud · Lausanne–Geneva corridor
