@@ -2,12 +2,12 @@
 
 ## When a date is confirmed
 - [ ] Add date to `sessions.md`
-- [ ] Ask Claude to draft announcement, reminder, and post-session emails
-- [ ] Schedule all three in Buttondown:
-  - Announcement — ~3 weeks before
-  - Reminder — 3–4 days before
-  - Post-session notes — day after (draft after the session)
-- [ ] Update landing page with date and venue (ask Claude)
+- [ ] Create a Google Form for RSVPs (name + email, one question: "are you coming?")
+- [ ] Ask Claude to draft announcement and reminder emails — provide date, time, venue, and Claude will generate the add-to-calendar link (Google Calendar URL, no public calendar needed)
+- [ ] Schedule both in Buttondown:
+  - Announcement — ~3 weeks before (includes Google Form RSVP link)
+  - Reminder — 3–4 days before (includes Google Form link again)
+- [ ] Update landing page with date (ask Claude, then push to GitHub)
 
 ## At the session
 - [ ] Bring book suggestions for next session
@@ -15,6 +15,6 @@
 
 ## After the session
 - [ ] Brief Claude on what was discussed → Claude writes post-session email
-- [ ] Send or schedule post-session email in Buttondown
+- [ ] Schedule post-session email in Buttondown
 - [ ] Update `sessions.md` with notes and next date
 - [ ] Update landing page with next book and date (ask Claude)
