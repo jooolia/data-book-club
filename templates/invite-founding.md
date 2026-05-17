@@ -1,4 +1,8 @@
-# Founding invite email
+# Founding invites
+
+---
+
+## Version 1
 
 **Subject:** A book club I'm starting — want in?
 
@@ -6,10 +10,44 @@ Hi [name],
 
 I'm starting a small book club in Morges and you're one of the first people I thought of.
 
-The idea: one book every two months, an evening at Central Station, good conversation. Books about data, technology, and AI in society — the kind that make you think, not the kind that feel like homework. Open to anyone, small by design (6–8 people).
+The idea: one book every two months, an evening in Morges, good conversation. Books about data, technology, and AI in society — the kind that make you think, not the kind that feel like homework. Small by design, open to anyone.
 
-The first book is *The Age of Extraction* by Tim Wu — about how tech platforms have reshaped the economy and what that means for the rest of us. First session sometime in July or September, evening, Morges.
+The first book is *The Age of Extraction* by Tim Wu. First session sometime this summer or autumn.
 
 No commitment beyond showing up when you can. If you're in, just reply and I'll add you to the list.
+
+Julia
+
+---
+
+## Version 2
+
+**Subject:** A book club I'm starting — thought of you
+
+Hi [name],
+
+Really enjoyed meeting you at WiDS — and I've been thinking about your book since.
+
+I'm starting a small book club in Morges: one book every two months, an evening, good conversation. Books about data, technology, and AI in society — accessible but rigorous, the kind worth actually discussing. Small group, open to anyone.
+
+First book is *The Age of Extraction* by Tim Wu. First session this summer or autumn.
+
+You'd be exactly the kind of person I want in the room. No commitment beyond showing up when you can — if you're interested, just reply.
+
+Julia
+
+---
+
+## Version 3 — outside of Morges
+
+**Subject:** A book club I'm starting — do you know anyone?
+
+Hi [name],
+
+I'm starting a small book club in Morges — one book every two months, evenings, books about data, tech, and AI in society. Good conversation, small group, no pressure.
+
+I know Basel is too far for you to come regularly, but I thought you might know people in the Lausanne–Geneva corridor who'd be into this kind of thing. If anyone comes to mind, feel free to pass this along or send me their name.
+
+First book is *The Age of Extraction* by Tim Wu. Landing page here if useful: https://jooolia.github.io/data-book-club/
 
 Julia
