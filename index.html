@@ -4,50 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Data Book Club — Morges</title>
+  <meta name="description" content="A small book club in the Morges area for people working in data, tech, and AI. One book every two months." />
+  <meta name="theme-color" content="#faf9f7" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Data Book Club — Morges" />
+  <meta property="og:description" content="A small book club for people working in data, tech, and AI. One book every two months in Morges, Switzerland." />
+  <meta property="og:type" content="website" />
+
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    :root {
+      --bg: #faf9f7;
+      --ink: #1a1a1a;
+      --ink-soft: #444;
+      --muted: #888;
+      --rule: #e5e2dc;
+      --rule-soft: #eeece7;
+    }
+
+    html, body { background: var(--bg); }
+
     body {
-      font-family: Georgia, serif;
-      background: #faf9f7;
-      color: #1a1a1a;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
       max-width: 640px;
       margin: 0 auto;
-      padding: 3rem 1.5rem 5rem;
+      padding: clamp(2rem, 6vw, 3rem) clamp(1.25rem, 5vw, 1.75rem) clamp(3rem, 8vw, 5rem);
       line-height: 1.7;
+      font-size: 17px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
 
     header {
-      margin-bottom: 3rem;
-      border-bottom: 1px solid #ddd;
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--rule);
       padding-bottom: 1.5rem;
     }
 
     h1 {
-      font-size: 1.6rem;
+      font-size: clamp(1.6rem, 4vw + 0.5rem, 2rem);
       font-weight: normal;
       letter-spacing: 0.01em;
+      line-height: 1.2;
     }
 
     h1 span {
       display: block;
       font-size: 0.9rem;
-      color: #666;
-      margin-top: 0.3rem;
-      font-family: system-ui, sans-serif;
+      color: var(--muted);
+      margin-top: 0.4rem;
+      font-family: system-ui, -apple-system, sans-serif;
+      letter-spacing: 0;
     }
 
     h2 {
       font-size: 0.75rem;
       text-transform: uppercase;
       letter-spacing: 0.12em;
-      color: #888;
-      font-family: system-ui, sans-serif;
+      color: var(--muted);
+      font-family: system-ui, -apple-system, sans-serif;
+      font-weight: 500;
       margin-bottom: 0.75rem;
       margin-top: 2.5rem;
     }
 
-    p { margin-bottom: 1rem; }
+    p {
+      margin-bottom: 1rem;
+      text-wrap: pretty;
+    }
 
     ul {
       list-style: none;
@@ -55,38 +82,91 @@
     }
 
     ul li {
-      padding: 0.4rem 0;
-      border-bottom: 1px solid #eee;
+      padding: 0.45rem 0;
+      border-bottom: 1px solid var(--rule-soft);
     }
 
     ul li:last-child { border-bottom: none; }
 
     .book-title { font-style: italic; }
 
-    .tag {
-      font-size: 0.75rem;
-      font-family: system-ui, sans-serif;
-      color: #888;
-      margin-left: 0.5rem;
+    .detail {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.92rem;
+      color: var(--ink-soft);
     }
 
-    .detail {
-      font-family: system-ui, sans-serif;
-      font-size: 0.9rem;
-      color: #444;
+    .next-session {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.95rem;
+      color: var(--ink);
     }
+    .next-session .date { font-weight: 500; }
+    .next-session .sep { color: var(--muted); margin: 0 0.4rem; }
+    .next-session .where { color: var(--ink-soft); }
+    .next-session .tbc { color: var(--muted); font-style: italic; }
 
     a {
-      color: #1a1a1a;
+      color: var(--ink);
       text-decoration: underline;
       text-underline-offset: 3px;
     }
 
+    form.subscribe {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      align-items: stretch;
+      margin-top: 0.5rem;
+    }
+    form.subscribe input[type="email"] {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.95rem;
+      padding: 0.55rem 0.7rem;
+      border: 1px solid #ccc;
+      background: #fff;
+      color: var(--ink);
+      flex: 1 1 16rem;
+      min-width: 0;
+      border-radius: 3px;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    form.subscribe input[type="email"]:focus {
+      outline: none;
+      border-color: var(--ink);
+      box-shadow: 0 0 0 3px rgba(26,26,26,0.08);
+    }
+    form.subscribe input[type="submit"] {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.95rem;
+      padding: 0.55rem 1.1rem;
+      background: var(--ink);
+      color: var(--bg);
+      border: 1px solid var(--ink);
+      cursor: pointer;
+      border-radius: 3px;
+      min-height: 44px;
+      transition: background-color 0.15s ease;
+    }
+    form.subscribe input[type="submit"]:hover { background: #000; }
+
     footer {
       margin-top: 4rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--rule-soft);
       font-size: 0.8rem;
-      font-family: system-ui, sans-serif;
-      color: #aaa;
+      font-family: system-ui, -apple-system, sans-serif;
+      color: var(--muted);
+    }
+
+    @media (max-width: 420px) {
+      form.subscribe input[type="email"],
+      form.subscribe input[type="submit"] { flex: 1 1 100%; }
+      form.subscribe input[type="submit"] { min-height: 48px; padding: 0.7rem 1.1rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
     }
   </style>
 </head>
@@ -105,6 +185,23 @@
     society, and ethics. Good conversation. No pressure to finish every chapter.
   </p>
 
+  <!--
+    Next session.
+    Hidden until the first session is scheduled. To reveal:
+      1. remove the `hidden` attribute from the <section> tag below
+      2. update the date, time and venue in the three spans
+  -->
+  <section hidden>
+    <h2>Next session</h2>
+    <p class="next-session">
+      <span class="date">Thursday 12 February</span>
+      <span class="sep">·</span>
+      <span>19:00</span>
+      <span class="sep">·</span>
+      <span class="where">Morges <span class="tbc">(venue tbc)</span></span>
+    </p>
+  </section>
+
   <h2>Format</h2>
   <ul>
     <li class="detail">One book every two months, weeknight evening</li>
@@ -122,15 +219,15 @@
   <h2>Interested?</h2>
   <p>We're building the founding group now. Subscribe to hear when the first session is confirmed.</p>
   <form
+    class="subscribe"
     action="https://buttondown.com/api/emails/embed-subscribe/data_book_club"
     method="post"
-    style="display:flex; gap:0.5rem; flex-wrap:wrap; align-items:center; margin-top:0.5rem;"
   >
-    <input type="email" name="email" placeholder="your@email.com" required
-      style="font-family:system-ui,sans-serif; font-size:0.9rem; padding:0.4rem 0.6rem; border:1px solid #ccc; background:#fff; color:#1a1a1a; flex:1; min-width:180px;" />
+    <label for="email" style="position:absolute; left:-9999px;">Email address</label>
+    <input id="email" type="email" name="email" placeholder="your@email.com"
+      inputmode="email" autocomplete="email" required />
     <input type="hidden" value="1" name="embed" />
-    <input type="submit" value="Subscribe"
-      style="font-family:system-ui,sans-serif; font-size:0.9rem; padding:0.4rem 0.9rem; background:#1a1a1a; color:#faf9f7; border:none; cursor:pointer;" />
+    <input type="submit" value="Subscribe" />
   </form>
 
   <footer>
