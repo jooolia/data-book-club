@@ -39,6 +39,7 @@ A small, quarterly book club in Morges focused on data, devops, and AI in societ
 - [ ] Pick first book and first date (these two decisions make it real)
 - [ ] Build email list
 - [ ] Push this repo to GitHub and enable GitHub Pages
+- [x] Create LinkedIn Page (organization page) for the club — https://www.linkedin.com/company/data-book-club/
 
 ## Files
 - `index.html` — landing page (publish via GitHub Pages)
