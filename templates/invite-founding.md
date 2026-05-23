@@ -2,21 +2,9 @@
 
 ---
 
-## Version 1
+## Version 1 — WhatsApp
 
-**Subject:** A book club I'm starting — want in?
-
-Hi [name],
-
-I'm starting a small book club in Morges and you're one of the first people I thought of.
-
-The idea: one book every two months, an evening in Morges, good conversation. Books about data, technology, and AI in society — the kind that make you think, not the kind that feel like homework. Small by design, open to anyone.
-
-The first book is *The Age of Extraction* by Tim Wu. First session sometime this summer or autumn.
-
-No commitment beyond showing up when you can. If you're in, just reply and I'll add you to the list.
-
-Julia
+Hi [name], I'm starting a small book club in Morges — one book every two months, an evening, good conversation. Books about data, tech, and AI in society, the kind worth actually discussing. First book is *The Age of Extraction* by Tim Wu, first session this summer or autumn. No commitment. If you're curious: https://jooolia.github.io/data-book-club/ — there's a subscribe box if you want in!
 
 ---
 

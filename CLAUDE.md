@@ -12,15 +12,19 @@ A small, quarterly book club in Morges focused on data, devops, and AI in societ
 - Weeknight evening sessions
 - Small group: 6–8 to start
 - No commitment required, join any session
-- Venue: Central Station Morges (first choice)
+- Venue: Central Station Morges (visited, confirmed good vibe)
 - Language: English
 - Communication: email list for members
+- **Session dates (provisional), 19:30, Central Station Morges:**
+  - Session 1: Wednesday 16 September 2026 — *The Age of Extraction*
+  - Session 2: Wednesday 18 November 2026 — book TBD
+  - Session 3: Wednesday 14 January 2027 — book TBD
 
 ## What's still open
 - [ ] **Club name** — "Data Book Club" is a working title. TODO: brainstorm a better name.
 - [ ] Women-only vs. women-led open to all
-- [ ] First book (see shortlist below)
-- [ ] First session date
+- [x] First book — *The Age of Extraction*
+- [x] First session date — Wednesday 16 September 2026, 19:30
 - [ ] Whether to try for an author Q&A from the start
 - [ ] Whether to record sessions
 
@@ -33,7 +37,7 @@ A small, quarterly book club in Morges focused on data, devops, and AI in societ
 - *The Intelligence Trap* — David Robson
 
 ## Things to do
-- [ ] Visit Central Station in person — check vibe, ask about regular table booking
+- [x] Visit Central Station in person — confirmed good vibe, still need to ask about regular table booking
 - [ ] Draft the pitch/invite message
 - [ ] Identify first 3 people to invite
 - [ ] Pick first book and first date (these two decisions make it real)
