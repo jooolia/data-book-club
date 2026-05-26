@@ -4,7 +4,7 @@
 
 ## Version 1 — WhatsApp
 
-Hi [name], I'm starting a small book club in Morges — one book every two months, an evening, good conversation. Books about data, tech, and AI in society, the kind worth actually discussing. First book is *The Age of Extraction* by Tim Wu, first session this summer or autumn. No commitment. If you're curious: https://jooolia.github.io/data-book-club/ — there's a subscribe box if you want in!
+Hi [name], I'm starting a small book club in Morges — an evening every two months, good conversation, books about data, tech, and AI in society. First book is *The Age of Extraction* by Tim Wu, first session Wednesday 16 September, 19:30. No commitment. If you're interested: https://jooolia.github.io/data-book-club/ — there's a subscribe box if you want in!
 
 ---
 
@@ -18,7 +18,7 @@ Really enjoyed meeting you at WiDS — and I've been thinking about your book si
 
 I'm starting a small book club in Morges: one book every two months, an evening, good conversation. Books about data, technology, and AI in society — accessible but rigorous, the kind worth actually discussing. Small group, open to anyone.
 
-First book is *The Age of Extraction* by Tim Wu. First session this summer or autumn.
+First book is *The Age of Extraction* by Tim Wu. First session Wednesday 16 September, 19:30, in Morges.
 
 You'd be exactly the kind of person I want in the room. No commitment beyond showing up when you can — if you're interested, just reply.
 
@@ -36,6 +36,6 @@ I'm starting a small book club in Morges — one book every two months, evenings
 
 I know Basel is too far for you to come regularly, but I thought you might know people in the Lausanne–Geneva corridor who'd be into this kind of thing. If anyone comes to mind, feel free to pass this along or send me their name.
 
-First book is *The Age of Extraction* by Tim Wu. Landing page here if useful: https://jooolia.github.io/data-book-club/
+First book is *The Age of Extraction* by Tim Wu, first session Wednesday 16 September, 19:30. Landing page here if useful: https://jooolia.github.io/data-book-club/
 
 Julia
