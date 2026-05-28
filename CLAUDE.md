@@ -21,7 +21,7 @@ A small, quarterly book club in Morges focused on data, devops, and AI in societ
   - Session 3: Wednesday 14 January 2027 — book TBD
 
 ## What's still open
-- [ ] **Club name** — "Data Book Club" is a working title. TODO: brainstorm a better name.
+- [x] **Club name** — Data Book Club
 - [x] Women-only vs. women-led open to all — decided: open to all, no gender angle
 - [x] First book — *The Age of Extraction*
 - [x] First session date — Wednesday 16 September 2026, 19:30
