@@ -5,7 +5,7 @@ A small, quarterly book club in Morges focused on data, devops, and AI in societ
 
 **Editorial line:** accessible but rigorous, connecting data and tech to real life, society, ethics, and work experience. Not textbooks.
 
-**Audience:** women-led, likely open to all, drawing from the Lausanne–Geneva corridor — international, multilingual data and tech professionals.
+**Audience:** open to all, drawing from the Lausanne–Geneva corridor — international, multilingual professionals interested in data, tech, and AI in society.
 
 ## Key decisions made
 - Quarterly (4 books/year)
@@ -22,7 +22,7 @@ A small, quarterly book club in Morges focused on data, devops, and AI in societ
 
 ## What's still open
 - [ ] **Club name** — "Data Book Club" is a working title. TODO: brainstorm a better name.
-- [ ] Women-only vs. women-led open to all
+- [x] Women-only vs. women-led open to all — decided: open to all, no gender angle
 - [x] First book — *The Age of Extraction*
 - [x] First session date — Wednesday 16 September 2026, 19:30
 - [ ] Whether to try for an author Q&A from the start
